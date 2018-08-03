@@ -119,6 +119,7 @@
      <Compile Include="Assets\RainMaker\Prefab\RainCollision.cs" />
      <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
      <Compile Include="Assets\RainMaker\Prefab\RainScript2D.cs" />
+     <Compile Include="Assets\Scripts\BrickFire.cs" />
      <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
@@ -127,6 +128,17 @@
      <Compile Include="Assets\Scripts\Elevator.cs" />
      <Compile Include="Assets\Scripts\FallBricks.cs" />
      <Compile Include="Assets\Scripts\FootSteps.cs" />
+     <Compile Include="Assets\Scripts\IA\EAlertState.cs" />
+     <Compile Include="Assets\Scripts\IA\EChaseState.cs" />
+     <Compile Include="Assets\Scripts\IA\ECoolDownState.cs" />
+     <Compile Include="Assets\Scripts\IA\EfeedBack.cs" />
+     <Compile Include="Assets\Scripts\IA\Enemy.cs" />
+     <Compile Include="Assets\Scripts\IA\EnemyInputs.cs" />
+     <Compile Include="Assets\Scripts\IA\EPatrolState.cs" />
+     <Compile Include="Assets\Scripts\IA\EventsManager.cs" />
+     <Compile Include="Assets\Scripts\IA\State.cs" />
+     <Compile Include="Assets\Scripts\IA\StateMachine.cs" />
+     <Compile Include="Assets\Scripts\IA\Waypoints.cs" />
      <Compile Include="Assets\Scripts\NextDialogue.cs" />
      <Compile Include="Assets\Scripts\Obelisk.cs" />
      <Compile Include="Assets\Scripts\Portal.cs" />
