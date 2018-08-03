@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final GameLevel Design", "Final GameLevel Design.csproj", "{446D6C37-4630-B2AE-BFED-08A8BCBC1AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final GameLevel Design.Plugins", "Final GameLevel Design.Plugins.csproj", "{50071C78-FBA0-7D3C-2DE3-4ADDF59E740E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final GameLevel Design.Editor", "Final GameLevel Design.Editor.csproj", "{C16A1B13-3D31-E72B-11A4-ACFC7834B127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final GameLevel Design.Editor.Plugins", "Final GameLevel Design.Editor.Plugins.csproj", "{83EBB1DE-F508-DB3B-81C1-D9E5BD919A3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{446D6C37-4630-B2AE-BFED-08A8BCBC1AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446D6C37-4630-B2AE-BFED-08A8BCBC1AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446D6C37-4630-B2AE-BFED-08A8BCBC1AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446D6C37-4630-B2AE-BFED-08A8BCBC1AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50071C78-FBA0-7D3C-2DE3-4ADDF59E740E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50071C78-FBA0-7D3C-2DE3-4ADDF59E740E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50071C78-FBA0-7D3C-2DE3-4ADDF59E740E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50071C78-FBA0-7D3C-2DE3-4ADDF59E740E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16A1B13-3D31-E72B-11A4-ACFC7834B127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16A1B13-3D31-E72B-11A4-ACFC7834B127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16A1B13-3D31-E72B-11A4-ACFC7834B127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16A1B13-3D31-E72B-11A4-ACFC7834B127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83EBB1DE-F508-DB3B-81C1-D9E5BD919A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83EBB1DE-F508-DB3B-81C1-D9E5BD919A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83EBB1DE-F508-DB3B-81C1-D9E5BD919A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83EBB1DE-F508-DB3B-81C1-D9E5BD919A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
