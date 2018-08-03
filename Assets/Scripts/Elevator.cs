@@ -6,6 +6,7 @@ public class Elevator : MonoBehaviour {
     private float _timer;
     private int _speed;
     private bool _active;
+	public static bool button;
 	// Use this for initialization
 	void Start () {
         _speed = 10;
@@ -17,8 +18,10 @@ public class Elevator : MonoBehaviour {
         if (_active) _timer += Time.deltaTime;
         if (_timer >= 1 && _active) transform.position += Vector3.up * Time.deltaTime * _speed;
         if (_timer >= 11.2f) { _active = false;}
-       
-    }
+		if (button == true)
+			_timer = 0;
+
+	}
     public void OnTriggerEnter(Collider a)
     {
         if(a.gameObject.tag == "Player")
@@ -26,5 +29,11 @@ public class Elevator : MonoBehaviour {
             if(_timer <= 0)
             _active = true;
         }
-    }
+		if (a.gameObject.tag == "Player"&& button== true)
+		{
+			
+				_active = true;
+			button = false;
+		}
+	}
 }
