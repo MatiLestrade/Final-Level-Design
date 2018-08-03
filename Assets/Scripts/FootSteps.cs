@@ -18,7 +18,7 @@ public class FootSteps : MonoBehaviour
     {
         if(Vector3.Distance(footSteps.transform.position,_player.transform.position) < 60f)
         {
-            Debug.Log("saasas");
+
         footSteps.SetActive(true);
         }
         else footSteps.SetActive(false);

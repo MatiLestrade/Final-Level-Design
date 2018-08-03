@@ -72,7 +72,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void Update()
         {
             
-            Debug.Log(_count);
+
             if (_count == 1) _timeToJump += Time.deltaTime;
             if (_timeToJump >= 0.5f) { _count = 0; _timeToJump = 0; }
             if (Input.GetKeyDown(KeyCode.F) && _count != 2) { _count++; _timeToJump = 0; }

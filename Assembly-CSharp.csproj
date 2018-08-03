@@ -122,11 +122,13 @@
      <Compile Include="Assets\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Scripts\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\DialogueTrigger.cs" />
+     <Compile Include="Assets\Scripts\directional.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Scripts\Elevator.cs" />
      <Compile Include="Assets\Scripts\FallBricks.cs" />
      <Compile Include="Assets\Scripts\FootSteps.cs" />
      <Compile Include="Assets\Scripts\NextDialogue.cs" />
+     <Compile Include="Assets\Scripts\Obelisk.cs" />
      <Compile Include="Assets\Scripts\Portal.cs" />
      <Compile Include="Assets\Scripts\resetPos.cs" />
      <Compile Include="Assets\Scripts\Respawn.cs" />
